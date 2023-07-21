@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/baseline_information"
+            android:title="@string/tentang_kami"
+            android:onClick="openactivity_information_page"/>
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/help"
+            android:onClick="openactivity_panduandari_menu"
+            android:title="@string/panduan"/>
+        <item
+            android:title="@string/historystatistik">
+
+            <menu>
+                <group
+                    android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/History"
+                        android:title="@string/history"
+                        android:icon="@drawable/baseline_history_24"
+                        android:onClick="openactivity_history"/>
+                    <item
+                        android:id="@+id/statistik"
+                        android:title="@string/statistik"
+                        android:icon="@drawable/baseline_bar_chart_24"
+                        android:onClick="openactivity_history"/>
+                </group>
+            </menu>
+        </item>
+    </group>
+
+</menu>
