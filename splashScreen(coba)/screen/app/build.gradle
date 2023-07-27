@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace 'com.pkm_app.splashscreen'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.pkm_app.splashscreen"
